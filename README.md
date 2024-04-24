@@ -1,5 +1,7 @@
 # Companion Object Extensions
 
+In this task:
+
 Add a companion object function to the Double class that prints out the class name.
 
 An example of the function invocation:
