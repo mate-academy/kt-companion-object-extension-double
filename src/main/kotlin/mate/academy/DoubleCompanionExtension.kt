@@ -1,3 +1,5 @@
 package mate.academy
-
-// provide your solution below
+const val MESSAGE: String = "Class name: "
+fun Double.Companion.printClassName() {
+    println(MESSAGE + this::class.qualifiedName)
+}
