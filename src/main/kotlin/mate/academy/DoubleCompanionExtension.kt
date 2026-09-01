@@ -1,3 +1,5 @@
 package mate.academy
 
-// provide your solution below
+fun Double.Companion.printClassName() : Unit {
+    print("Class name: kotlin.Double.Companion\n")
+}
